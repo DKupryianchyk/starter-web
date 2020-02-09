@@ -1,0 +1,89 @@
+  501  cd projects/starter-web/
+  502  git branch -a
+  503  git branch mynewbranch
+  504  git branch -a
+  505  git checkout mynewbranch 
+  506  git branch -a
+  507  git log --oneline --decorate
+  508  git checkout master 
+  509  git branch -a
+  510  git branch -m mynewbranch newbranch
+  511  git branch -a
+  512  git branch -d newbranch 
+  513  git branch -a
+  514  clear
+  515  git branch
+  516  git checkout -b tittle-change
+  517   notepad++ simple.html 
+  518  git status
+  519  git commit -am "changing title"
+  520  git log --onleine
+  521  git log --oneline
+  522  git checkout master
+  523  git diff master tittle-change 
+  524  git difftool master tittle-change 
+  525  clear
+  526  git merge tittle-change 
+  527  git log --oneline --graph --decorate
+  528  git branch 
+  529  git branch -d tittle-change 
+  530  git branch 
+  531  git log --oneline --graph --decorate
+  532  clear
+  533  git checkout -b add-copyright
+  534  git branch
+  535  clear
+  536  notepad simple.html 
+  537  git status 
+  538  git commit -am "Adding copyright notice"
+  539* 
+  540  notepad++ README.md
+  541  git commit -am "Adding copyright notice to readme"
+  542  git log --oneline --graph --decorate
+  543  git checkout master 
+  544  git merge add-copyright --no-ff
+  545  git log --oneline --graph --decorate
+  546  git branch -d add-copyright 
+  547  git log --oneline --graph --decorate
+  548  clear
+  549  git checkout -b simple-changes
+  550  notepad++ humans.txt 
+  551  git status
+  552  git commit -am "adding team member"
+  553  git checkout master 
+  554  notepad++ README.md
+  555  git status
+  556  git commit -am "adding pls"
+  557  git log --oneline --graph --decorate --all
+  558  git branch
+  559  git merge simple-changes -m "Merging changes from simple-changes branch"
+  560  git log --oneline --graph --decorate --all
+  561  git branch -d simple-changes 
+  562  git log --oneline --graph --decorate --all
+  563  notepad++ humans.txt 
+  564  clear
+  565  git status
+  566  git checkout -b realwork
+  567  notepad++ simple.html 
+  568  git commit -am "Making changes html"
+  569  git checkout master 
+  570  notepad++ simple.html 
+  571  git commit -am "adding conflict"
+  572  git log --oneline --graph --decorate --all
+  573  git diff master realwork 
+  574  git difftool master realwork 
+  575  git merge realwork 
+  576  ls
+  577  notepad++ simple.html 
+  578  git mergetool
+  579  git commit -m "done resolving merge conflicts"
+  580  git status
+  581  notepad++ simple.html.orig
+  582  notepad++ .gitignore
+  583  git status
+  584  git add .gitignore 
+  585  git commit
+  586  git branch
+  587  git branch -d realwork 
+  588  git log --oneline --graph --decorate --all
+  602  history >> historyBranchingAndMergering.txt
