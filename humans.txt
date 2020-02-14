@@ -6,7 +6,7 @@ DK dkupr
     <name> -- <role> -- <twitter>
 
 # THANKS
-
+thanks
     <name>
 
 # TECHNOLOGY COLOPHON
