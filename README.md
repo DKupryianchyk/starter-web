@@ -1,5 +1,5 @@
 # Starter Web Repo
-adding some more text
+adding some more text some more
 more changes 
 This repository is for showing how Git and GitHub work
 
