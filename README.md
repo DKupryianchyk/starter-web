@@ -10,3 +10,6 @@ Sample website with plenty of files for demos
  yeppppppp
  pls...................
  all rights reserved
+ 
+ 
+ #updates from dev 1
